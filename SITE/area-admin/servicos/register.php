@@ -59,7 +59,7 @@
             <div class="card-body row justify-content-center align-items-center">
               <div class="col-md-3   text-center">
                 <div class="bg-white rounded">
-                  <img id="preview" src="../../img/tratamentos/sem-foto.jpg" alt="imagem padrão" class=" w-75">
+                  <img id="preview" src="../../img/tratamentos/<?=$imagem_servico!="" ? $imagem_servico : 'sem-foto.jpg';?>" alt="imagem padrão" class=" w-75">
                 </div>
               </div>
               <div class=" col-md-9">
